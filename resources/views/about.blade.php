@@ -24,6 +24,7 @@
         <div>
             <h1>О блоге</h1>
             <p>Эксперименты с Laravel на Хекслете</p>
+            <a href="/">To the main page</a>
         </div>
     </body>
 </html>

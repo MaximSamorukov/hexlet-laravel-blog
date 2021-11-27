@@ -22,7 +22,8 @@
     </head>
     <body class="antialiased">
         <div>
-            Test
+            <h1>News</h1>
+            <a href="/">To the main page</a>
         </div>
     </body>
 </html>
