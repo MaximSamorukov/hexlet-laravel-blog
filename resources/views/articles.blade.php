@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Test page</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,11 +22,8 @@
     </head>
     <body class="antialiased">
         <div>
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/news">News</a></li>
-                <li><a href="/articles">Articles</a></li>
-            </ul>
+            <h1>Articles</h1>
+            <a href="/">To the main page</a>
         </div>
     </body>
 </html>
