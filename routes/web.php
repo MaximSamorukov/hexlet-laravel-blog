@@ -21,6 +21,10 @@ Route::get('about', function () {
     return view('about');
 });
 
-Route::get('test', function () {
-    return view('test');
+Route::get('articles', function () {
+    return view('articles');
+});
+
+Route::get('news', function () {
+    return view('news');
 });
