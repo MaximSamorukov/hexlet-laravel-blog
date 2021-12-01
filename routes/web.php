@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PageContoller;
+use App\Http\Controllers\ArticleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,19 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PageContoller::class, 'welcome']);
 
-Route::get('about', function () {
-    $tags = ['обучение', 'программирование', 'php', 'oop'];
-    return view('about', ['tags' => $tags]);
-});
+Route::get('about', [PageContoller::class, 'about']);
 
-Route::get('articles', function () {
-    return view('articles');
-});
+Route::get('articles', [ArticleController::class, 'index'])->name('articles.index');
 
-Route::get('news', function () {
-    return view('news');
-});
+Route::get('news', [PageContoller::class, 'news']);

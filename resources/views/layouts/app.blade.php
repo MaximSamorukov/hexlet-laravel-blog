@@ -18,6 +18,9 @@
             <div>
                 @yield('courses')
             </div>
+            <div>
+                <a href="/">To the main page</a>
+            </div>
         </div>
     </body>
 </html>
