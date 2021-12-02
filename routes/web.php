@@ -22,3 +22,5 @@ Route::get('about', [PageContoller::class, 'about']);
 Route::get('articles', [ArticleController::class, 'index'])->name('articles.index');
 
 Route::get('news', [PageContoller::class, 'news']);
+
+Route::get('articles/{id}', [ArticleController::class, 'show'])->name('articles.show');
