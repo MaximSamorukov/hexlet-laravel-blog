@@ -15,6 +15,9 @@
     <div class="container mt-4">
         <h1>@yield('header')</h1>
         <div>
+            @yield('menu')
+        </div>
+        <div>
             @yield('content')
         </div>
         <div>
