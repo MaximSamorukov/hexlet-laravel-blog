@@ -10,6 +10,12 @@
   </span>
 </div>
 <div>
+  <span>
+    <a data-method="delete" rel="nofollow" href="/articles/{{$article->id}}">Удалить статью
+    </a>
+  </span>
+</div>
+<div>
   <a href="/articles">To the articles</a>
 </div>
 @endsection

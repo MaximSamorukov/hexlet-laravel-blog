@@ -26,6 +26,12 @@
     </a>
   </span>
 </div>
+<div>
+  <span>
+    <a data-method="delete" rel="nofollow" href="articles/{{$article->id}}">Удалить статью
+    </a>
+  </span>
+</div>
 @endforeach
 {{ $articles->links() }}
 
